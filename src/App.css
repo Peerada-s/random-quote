@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Overpass&display=swap');
+
+.App {
+  display:flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quote {
+  background: url(https://i.pinimg.com/1200x/2b/d1/8e/2bd18e0b2c2b66f8821c716c2febbd2d.jpg);
+  background-size:cover;
+  background-position: 50%;
+  width: 450px;
+  height: 450px;
+  border-radius: 10px;
+  padding: 50px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Overpass', sans-serif;
+}
+
+.quote h2 {
+  font-size: 2em;
+  margin: 3rem;
+}
+.quote small {
+  font-size: 1.5rem;
+}
+
+.btn {
+  display: block;
+  border: 2px solid #AF3E4D;
+  background: transparent;
+  padding: 10px 15px;
+  color: #AF3E4D;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: background 1s, color 1s;
+}
+
+.btn:hover {
+  background: #AF3E4D;
+  color: #fff;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
